@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvrf1intsfiqv"]
+
+[ext_resource type="Script" path="res://Map.gd" id="1_qc7ct"]
+
+[node name="Map" type="Node2D"]
+script = ExtResource("1_qc7ct")
+
+[node name="spot 1" type="Marker2D" parent="."]
